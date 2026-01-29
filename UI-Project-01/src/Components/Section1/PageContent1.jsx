@@ -3,11 +3,11 @@ import Leftcontent from './Leftcontent'
 import Rightcontent1 from './Rightcontent1'
 
 
-const PageContent1 = () => {
+const PageContent1 = (props) => {
   return (
-    <div className='py-10 flex gap-10 items-center h-[90vh] bg-green-800 px-18'>
+    <div className='py-10 flex gap-10 items-center h-[90vh]  px-18'>
         < Leftcontent />
-        < Rightcontent1 />
+        < Rightcontent1 users={props.users}/>
     </div>
   )
 }
