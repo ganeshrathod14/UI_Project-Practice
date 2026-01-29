@@ -1,10 +1,14 @@
 import React from 'react'
+import Section1 from './Components/Section1/Section1'
+import Section2 from './Components/section2/Section2'
 
 
 const App = () => {
   return (
-    <div className='h-20 w-50 bg-amber-500'>
-        Rathod
+    <div>
+        < Section1 />
+        < Section2 />
+        
     </div>
   )
 }
